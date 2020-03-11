@@ -8,3 +8,16 @@ header{
     background-size: cover;
     background-position: center;
 }
+ul li{
+    display: inline-block;
+}
+ul {
+    float: right;
+    list-style-type: none ;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+}
