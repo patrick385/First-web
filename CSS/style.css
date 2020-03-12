@@ -16,6 +16,10 @@ ul {
     list-style-type: none ;
     margin-top: 25px;
 }
+ul li.active a{
+    background-color: #fff;
+    color: #000;
+}
 ul li a{
     text-decoration: none;
     color: #fff;
@@ -29,6 +33,15 @@ ul li a:hover{
 }
 .logo img{
     float: left;
-    width: 150px;
-    height: auto;
+    width: 85px;
+    height: 40px;
+    margin-top: 25px;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 15%;
 }
